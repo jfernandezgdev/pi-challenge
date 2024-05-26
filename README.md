@@ -20,7 +20,7 @@ Este proyecto fue desarrollado por Jorge Fernández [https://www.linkedin.com/in
 
 ```
 pi_challenge/
-│
+│          
 ├── app/
 │   ├── api/                 # Contiene controladores/routers/schemas/logging
 │   │   ├── controllers/
@@ -45,9 +45,11 @@ pi_challenge/
 │   │   │   │   │   └── character.py
 │   │   │   │   ├── database.py
 │   │   │   │   └── init.py
-│   ├── test/                # Pruebas de las APIs 
+│   ├── test/                # Pruebas Internas de las APIs 
 │   │   └── test_character.py
 │   └── main.py              # Punto de entrada de la aplicación   
+├── postman/                 # Colecciones Postman para pruebas
+│   └── Pi_Challenge.postman_collection   
 ├── .gitignore
 ├── Dockerfile
 ├── README.md
