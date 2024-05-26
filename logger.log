@@ -1,0 +1,65 @@
+2024-05-26 00:32:21,318 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:32:52,755 [INFO] [#] Inicio controllers - get_all_characters()
+2024-05-26 00:32:52,761 [INFO] [#] Fin controllers - get_all_characters()
+2024-05-26 00:33:04,661 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:33:04,666 [INFO] create: name='iroman' height=10 mass=10 hair_color='sss' skin_color='ss' eye_color='ss' birth_year=2020
+2024-05-26 00:33:04,682 [INFO] [#] Fin controllers - create_character()
+2024-05-26 00:33:08,292 [INFO] [#] Inicio controllers - get_all_characters()
+2024-05-26 00:33:08,296 [INFO] [#] Fin controllers - get_all_characters()
+2024-05-26 00:33:23,946 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:33:23,952 [INFO] create: name='spiderman' height=10 mass=10 hair_color='sss' skin_color='ss' eye_color='ss' birth_year=2020
+2024-05-26 00:33:23,966 [INFO] [#] Fin controllers - create_character()
+2024-05-26 00:33:27,392 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:33:27,396 [INFO] create: name='thor' height=10 mass=10 hair_color='sss' skin_color='ss' eye_color='ss' birth_year=2020
+2024-05-26 00:33:27,408 [INFO] [#] Fin controllers - create_character()
+2024-05-26 00:33:30,804 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:33:30,807 [WARNING] Personaje con nombre thor ya existe
+2024-05-26 00:33:30,807 [ERROR] Error al crear el personaje: 400: Personaje con nombre thor ya existe
+2024-05-26 00:38:28,928 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:38:35,865 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:38:35,872 [WARNING] Personaje con nombre thor ya existe
+2024-05-26 00:39:12,805 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:39:19,202 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:39:19,207 [WARNING] Personaje con nombre thor ya existe
+2024-05-26 00:40:22,535 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:40:36,156 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:40:36,165 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:40:36,171 [WARNING] Personaje con nombre thor ya existe
+2024-05-26 00:40:36,172 [ERROR] Error al crear el personaje: 400: Personaje con nombre thor ya existe
+2024-05-26 00:42:24,251 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:42:29,689 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:42:34,730 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:42:34,737 [WARNING] Personaje con nombre thor ya existe
+2024-05-26 00:42:34,737 [ERROR] Personaje con nombre thor ya existe
+2024-05-26 00:43:29,595 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:44:06,133 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:44:29,039 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:44:39,600 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:45:11,358 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:45:19,377 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:45:24,848 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:45:24,855 [WARNING] Personaje con nombre thor ya existe
+2024-05-26 00:45:24,856 [ERROR] Personaje con nombre thor ya existe
+2024-05-26 00:45:26,415 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:45:26,418 [WARNING] Personaje con nombre thor ya existe
+2024-05-26 00:45:26,419 [ERROR] Personaje con nombre thor ya existe
+2024-05-26 00:45:42,243 [INFO] [#] Inicio controllers - create_character()
+2024-05-26 00:45:42,247 [INFO] create: name='loki' height=10 mass=10 hair_color='sss' skin_color='ss' eye_color='ss' birth_year=2020
+2024-05-26 00:45:42,268 [INFO] [#] Fin controllers - create_character()
+2024-05-26 00:45:56,677 [INFO] [#] Inicio controllers - get_all_characters()
+2024-05-26 00:45:56,681 [INFO] [#] Fin controllers - get_all_characters()
+2024-05-26 00:46:07,928 [INFO] [#] Inicio controllers - get_character()
+2024-05-26 00:46:07,930 [INFO] [#] Fin controllers - get_character()
+2024-05-26 00:46:15,082 [INFO] [#] Inicio controllers - delete_character()
+2024-05-26 00:46:15,095 [INFO] Personaje con ID 4 eliminado exitosamente
+2024-05-26 00:46:15,095 [INFO] [#] Fin controllers - delete_character()
+2024-05-26 00:46:21,340 [INFO] [#] Inicio controllers - delete_character()
+2024-05-26 00:46:21,344 [WARNING] Personaje con ID 44 no encontrado para eliminar
+2024-05-26 00:46:21,344 [ERROR] Personaje con ID 44 no encontrado para eliminar
+2024-05-26 00:46:29,795 [INFO] [#] Inicio controllers - get_character()
+2024-05-26 00:46:29,798 [WARNING] Personaje con ID 44 no encontrado
+2024-05-26 00:46:29,799 [ERROR] Personaje con ID 44 no encontrado
+2024-05-26 00:46:37,183 [INFO] [#] Inicio controllers - get_all_characters()
+2024-05-26 00:46:37,186 [INFO] [#] Fin controllers - get_all_characters()
+2024-05-26 00:46:43,750 [INFO] Base de datos inicializada correctamente
+2024-05-26 00:47:13,984 [INFO] Base de datos inicializada correctamente
