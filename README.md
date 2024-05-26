@@ -16,7 +16,7 @@ Este proyecto fue desarrollado por Jorge Fernández [https://www.linkedin.com/in
 4. [Documentación de la API](#documentación-de-la-api)
 5. [Implementación con Docker(Opcional)](#implementación-con-docker(opcional))
 
-## 1. Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 pi_challenge/
@@ -24,10 +24,8 @@ pi_challenge/
 ├── app/
 │   ├── api/                 # Contiene controladores/routers/schemas/logging
 │   │   ├── controllers/
-│   │   │   ├── __init__.py
 │   │   │   └── character.py
 │   │   ├── routers/
-│   │   │   ├── __init__.py
 │   │   │   ├── character.py
 │   │   │   ├── root.py
 │   │   │   └── routes.py
@@ -50,59 +48,61 @@ pi_challenge/
 │   ├── test/                # Pruebas de las APIs 
 │   │   └── test_character.py
 │   └── main.py              # Punto de entrada de la aplicación   
-│
-├── logger.log
+├── .gitignore
 ├── Dockerfile
 ├── README.md
-├── requirements.txt
+└── requirements.txt
 ```
 
-## 2. Tecnologias
+## Tecnologias
 
 - **Python version**: 3.9 o superior
 - **Framework**: FastAPI
 - **Database**: SQLite
 
-## 3. Configuración del Entorno Local
+## Configuración del Entorno Local
 
-### 1. Clonar el repositorio
+### Clonar el repositorio
 
 ```bash
 git clone <repository_url>
 cd pi_challenge
 ```
 
-### 2. Crear entorno virtual
+### Crear entorno virtual
 
 ```bash
 # Crear un entorno virtual
 python -m venv nombre_entorno_virtual
 
-# Activar entorno virtual 
-source env/bin/activate  # On Windows use `env\Scripts\activate`
+# Activar entorno virtual (Windows)
+.\nombre_entorno_virtual\Scripts\activate
+
+# Activar entorno virtual (macOS/Linux)
+source nombre_entorno_virtual/bin/activate
 ```
 
-### 3. Instalar dependencias
+### Instalar dependencias
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Inicializar aplicación
+### Inicializar aplicación
 
 ```bash
 uvicorn app.main:app --reload
 ```
 La aplicación debería estar corriendo en http://127.0.0.1:8000.
 
-## 4. Documentación de la API
+## Documentación de la API
 Esta ruta te lleva a Swagger UI, donde puedes interactuar con tu API de forma dinámica y explorar sus endpoints y parámetros :
 
 - `/docs` para Swagger UI
 
 La url para el Swagger UI es http://127.0.0.1:8000/docs
 
-## 5. Implementación con Docker(Opcional)
+## Implementación con Docker(Opcional)
 
 ### Construir imagen de Docker
 

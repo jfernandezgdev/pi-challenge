@@ -57,7 +57,7 @@ class CharacterUseCase:
         Returns:
             CharacterModel: El personaje creado.
         """
-        logging.info(f"create: {data}")
+        logging.info(f"Nuevo Personaje: {data}")
         return self.interface.create(data)  # Guardar el personaje usando la interface
     
     # Función para eliminar un personaje por su ID

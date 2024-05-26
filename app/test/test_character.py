@@ -1,4 +1,4 @@
-from app.api.controllers import character
+from app.api.controllers import character as controller
 
 def get_characters():
     """
@@ -7,7 +7,7 @@ def get_characters():
     Returns:
         list: Lista de personajes.
     """
-    result = character.get_all_characters()
+    result = controller.get_all_characters()
     return result
 
 def get_character():
@@ -18,7 +18,7 @@ def get_character():
         dict: Detalles del personaje.
     """
     id = 2
-    result = character.get_character_by_id(id)
+    result = controller.get_character(id)
     return result
     
 def create_character():
@@ -29,15 +29,15 @@ def create_character():
         dict: Detalles del personaje creado.
     """
     data = {
-        "name": "aaaaa",
-        "height": 10,
-        "mass": 10,
-        "hair_color": "sss",
-        "skin_color": "ss",
-        "eye_color": "ss",
-        "birth_year": 2020
+        "name": "Ironman",
+        "height": 180,
+        "mass": 80,
+        "hair_color": "black",
+        "skin_color": "with",
+        "eye_color": "blue",
+        "birth_year": 1980
     }
-    result = character.create_character(data)
+    result = controller.create_character(data)
     return result
 
 def delete_character():
@@ -48,7 +48,7 @@ def delete_character():
         str: Mensaje indicando el resultado de la eliminación.
     """
     id = 2
-    result = character.delete_character(id)
+    result = controller.delete_character(id)
     return result  
 
 def __main__():
