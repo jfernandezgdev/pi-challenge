@@ -1,8 +1,8 @@
 from fastapi import  HTTPException, status
+import logging
 from app.core.use_cases.character import CharacterUseCase
 from app.api.schemas.character import CharacterCreate
-from pydantic import ValidationError
-import logging
+
 
 # Función para obtener todos los personajes
 def get_all_characters():

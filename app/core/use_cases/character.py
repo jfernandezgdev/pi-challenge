@@ -7,7 +7,6 @@ class CharacterUseCase:
         """
         Inicializar el caso de uso de personajes con una interface.
         """
-        # self.interface = interface  # Inyección de dependencia de la interface
         self.interface = CharacterInterface()  # Inyección de dependencia de la interface
 
     # Función para obtener todos los personajes

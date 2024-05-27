@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String
-from app.db.sql.sqlalchemy.database import Base # Import the global Base
+from app.db.sql.sqlalchemy.database import Base 
 
 # Definición del modelo Character
 class CharacterModel(Base):

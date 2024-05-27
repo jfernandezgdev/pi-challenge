@@ -1,8 +1,8 @@
 # Proyecto Challenge Python - Pi Data Strategy & Consulting
 
-Este proyecto utiliza FASTAPI para crear un CRUD de personajes. El proyecto ha sido estructurado siguiendo los principios de Clean Architecture.
+Este proyecto utiliza FastAPI para crear un CRUD de personajes y está estructurado siguiendo los principios de Clean Architecture.
 
-Este proyecto fue desarrollado por Jorge Fernández [https://www.linkedin.com/in/jfernandezgonzales/]
+Desarrollado por Jorge Fernández [https://www.linkedin.com/in/jfernandezgonzales/]
 
 ## Contenido
 
@@ -97,12 +97,15 @@ uvicorn app.main:app --reload
 ```
 La aplicación debería estar corriendo en http://127.0.0.1:8000.
 
+Al iniciar la aplicación, se crearán dos archivos en la raíz del proyecto: `logger.log`, que contendrá los registros del proyecto, y `pi.db`, que será la base de datos de la aplicación.
+
 ## Documentación de la API
-Esta ruta te lleva a Swagger UI, donde puedes interactuar con tu API de forma dinámica y explorar sus endpoints y parámetros :
 
-- `/docs` para Swagger UI
+Esta sección te redirige a Swagger UI, donde puedes interactuar dinámicamente con tu API y explorar sus endpoints y parámetros.
 
-La url para el Swagger UI es http://127.0.0.1:8000/docs
+- Accede a Swagger UI en `/docs`
+
+La URL para Swagger UI es: http://127.0.0.1:8000/docs
 
 ## Implementación con Docker(Opcional)
 

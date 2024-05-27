@@ -1,6 +1,6 @@
-
 from fastapi import APIRouter
 
+# Crear una nueva instancia de APIRouter
 router = APIRouter()
 
 # Ruta raíz para verificar que la API está funcionando
