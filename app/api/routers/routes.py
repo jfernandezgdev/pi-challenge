@@ -9,3 +9,7 @@ router = APIRouter()
 router.include_router(router=root_router, tags=["Raíz"])
 # Ruta Character
 router.include_router(router=character_router, prefix="/character", tags=["Personaje"])
+# Ruta n
+#
+
+
